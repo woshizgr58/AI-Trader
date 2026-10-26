@@ -1,0 +1,17 @@
+symbols = ["SPY", "QQQ", "IWM", "DIA"]
+data_dir = "data"
+history_start = "2020-07-27"
+feed = "iex"
+threshold = 0.002
+max_asset_weight = 0.25
+max_total_weight = 1.0
+max_order_notional = 25000.0
+max_drawdown = 0.15
+cash_buffer = 0.01
+slippage_bps = 10.0
+fee_bps = 1.0
+initial_cash = 100000.0
+seed = 42
+decision_delay_minutes = 5
+max_quote_age_seconds = 120
+strategy_id = "five-day-etf-v1"
